@@ -10,7 +10,8 @@
   "dependencies": {
     "express": "",
     "fs": "",
-    "path": ""
+    "path": "",
+    "typewriter-effect": "^2.13.1"
   },
   "author": "",
   "license": "ISC"

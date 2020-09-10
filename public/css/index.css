@@ -1,20 +1,22 @@
-.navbar {
+.navibar {
     margin-left: 5%;
     margin-right: 5%;
     background-color: black;
     padding: 8px 8px;
     overflow: hidden;
 }
-.navbar a{
+.navibar a{
     color: #ffffff;
     float: right;
     display: block;
     text-decoration: none;
     text-align: center;
     padding: 14px 16px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 3px;
 }
 
-.navbar a:hover {
+.navibar a:hover {
     color: blueviolet;
 }
 .main-head {
@@ -24,19 +26,21 @@
     margin-right: 5%;
     padding-top: 5px;
     font-family: 'Orbitron', sans-serif;
-    font-size: 80px;
+    font-size: xxx-large;
     text-align: center;
     color: #ffffff;
     background-color: #000000;
 }
-.intro {
+
+.row{
+    color: white;
+    background-color: black;
     margin-left: 5%;
     margin-right: 5%;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-    font-family: 'orbitron', sans-serif;
-    font-size: 18px;
-    color: #ffffff;
-    background-color: #000000; 
+    font-size: medium;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 3px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+  
