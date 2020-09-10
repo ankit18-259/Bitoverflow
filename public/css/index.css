@@ -1,0 +1,42 @@
+.navbar {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: black;
+    padding: 8px 8px;
+    overflow: hidden;
+}
+.navbar a{
+    color: #ffffff;
+    float: right;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.navbar a:hover {
+    color: blueviolet;
+}
+.main-head {
+    border-top: 5px solid #ffffff;
+    border-bottom: 5px solid #ffffff;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+}
+.intro {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: 'orbitron', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #000000; 
+}
