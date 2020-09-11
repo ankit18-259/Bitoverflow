@@ -1,53 +1,84 @@
-.navibar {
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: black;
-    padding: 8px 8px;
-    overflow: hidden;
-}
-.navibar a{
-    color: #ffffff;
-    float: right;
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    padding: 14px 16px;
-    font-family: 'Orbitron', sans-serif;
-    letter-spacing: 3px;
+.section1 {
+  background-image: linear-gradient(to right, #0F2027, #2C5364);
 }
 
-.navibar a:hover {
-    color: blueviolet;
-}
 .main-head {
-    border-top: 5px solid #ffffff;
-    border-bottom: 5px solid #ffffff;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-top: 5px;
-    font-family: 'Orbitron', sans-serif;
-    font-size: xxx-large;
-    text-align: center;
-    color: #ffffff;
-    background-color:#000000;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: lighter;
 }
 
-.row{
-    color: white;
-    background-color: #000000;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: medium;
-    font-family: 'Orbitron', sans-serif;
-    letter-spacing: 3px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.sub-head {
+  color: #020202;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  margin-left: 25%;
 }
-.left {
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .main-head {
+    font-size: 32px ;
+    font-weight: lighter;
+  }
+  .sub-head {
+    font-size: 13px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
-.right {
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .main-head {
+    font-size: 55px;
+    font-weight: lighter;
+  }
+  .sub-head {
+    font-size: 16px;
+    margin-left: 15%;
+  }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .main-head {
+    font-size: 70px;
+    font-weight: lighter;
+  }
+  .sub-head {
+    font-size: 20px;
+    margin-left: 15%;
+  }
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .main-head {
+    font-size: 100px;
+    font-weight: lighter;
+  }
+  .sub-head {
+    font-size: 34px;
+    margin-left: 15%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .main-head {
+    font-size: 125px;
+    font-weight: lighter;
+  }
+  .sub-head {
+    font-size: 35px;
+    margin-left: 25%;
+  }
 }
