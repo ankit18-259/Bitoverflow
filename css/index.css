@@ -1,0 +1,84 @@
+.section1 {
+  background-image: linear-gradient(to right, #0F2027, #2C5364);
+}
+
+.main-head {
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: lighter;
+}
+
+.sub-head {
+  color: #020202;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  margin-left: 25%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .main-head {
+    font-size: 32px ;
+    font-weight: lighter;
+  }
+  .sub-head {
+    font-size: 13px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .main-head {
+    font-size: 55px;
+    font-weight: lighter;
+  }
+  .sub-head {
+    font-size: 16px;
+    margin-left: 15%;
+  }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .main-head {
+    font-size: 70px;
+    font-weight: lighter;
+  }
+  .sub-head {
+    font-size: 20px;
+    margin-left: 15%;
+  }
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .main-head {
+    font-size: 100px;
+    font-weight: lighter;
+  }
+  .sub-head {
+    font-size: 34px;
+    margin-left: 15%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .main-head {
+    font-size: 125px;
+    font-weight: lighter;
+  }
+  .sub-head {
+    font-size: 35px;
+    margin-left: 25%;
+  }
+}
