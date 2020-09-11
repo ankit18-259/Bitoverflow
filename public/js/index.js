@@ -17,3 +17,5 @@ var typed = new Typed('.type', {
                     // Default value
 
                   });
+
+
