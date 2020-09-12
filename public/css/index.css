@@ -51,16 +51,37 @@
 }
 
 
-
+/* Extra small devices (phones like Motog4) */
+@media only screen and (min-width: 300px) {
+  .main-head {
+    font-size: 32px ;
+    font-weight: lighter;
+  }
+  .sub-head {
+    font-size: 9px;
+    margin-left: 13%;
+  }
+}
+/* Extra small devices (phones like PixelXL) */
+@media only screen and (min-width: 400px) {
+  .main-head {
+    font-size: 32px ;
+    font-weight: lighter;
+  }
+  .sub-head {
+    font-size: 9px;
+    margin-left: 18%;
+  }
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .main-head {
+   .main-head {
     font-size: 55px;
     font-weight: lighter;
   }
   .sub-head {
     font-size: 16px;
-    margin-left: 15%;
+    margin-left: 20%;
   }
   .navibar {
     font-size:12px;
