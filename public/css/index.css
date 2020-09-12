@@ -49,7 +49,9 @@
   letter-spacing: 2px;
   }
 }
-
+.row {
+  margin-right: 0px;
+}
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
