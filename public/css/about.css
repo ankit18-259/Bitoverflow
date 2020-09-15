@@ -1,16 +1,45 @@
 .navibar {
     display: block;
-    background-image: linear-gradient(to right, #0F2027, #2C5364);
+    background-color: #ffffff;
     font-family: 'Orbitron', sans-serif;
     font-weight: lighter;
     border-bottom: #ffffff solid 3px;
   }
   .navibar a {
     float: right;
-    color: white;
+    color: #242424;
     padding: 16px 20px;
     text-align: center;
     letter-spacing: 3px;
+  }
+  .row {
+    margin-right: 0px;
+  }
+  .section-1 {
+    padding-top: 80px;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 17px;
+  }
+  .section-1 h2 {
+    text-align: center;
+  }
+  .section-1 button {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #353535;
+    color: #ffffff;
+    padding: 14px 23%;
+  }
+  .section-2 img {
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    padding: 10px 10px;
+    border: #353535 solid 2px;
   }
 
 /* Extra small devices (phones, 600px and down) */

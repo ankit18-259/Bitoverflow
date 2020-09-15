@@ -1,7 +1,7 @@
 
 var typed = new Typed('.type', {
                     strings: [
-                      '"TO FREE AND OPEN SOURCE."',
+                      '"TO&nbsp;FREE&nbsp;AND&nbsp;OPEN&nbsp;SOURCE."',
                     ],
 
                     typeSpeed: 70,
