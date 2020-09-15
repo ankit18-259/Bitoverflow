@@ -1,0 +1,71 @@
+.navibar {
+    display: block;
+    background-color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: lighter;
+    border-bottom: #242424 solid 3px;
+  }
+.navibar a {
+    float: right;
+    color: #242424;
+    padding: 16px 20px;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+.row {
+    margin-right: 0px;
+  }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navibar {
+      font-size:10px;
+      }
+    .navibar a {
+      padding: 7px 9px;
+      letter-spacing: 2px;
+      }
+    }
+    
+    
+    
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .navibar {
+        font-size:12px;
+    }
+    .navibar a {
+        padding: 10px 11px;
+        letter-spacing: 2px;
+    }
+}
+    
+    
+    
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .navibar {
+        font-size:14px;
+    }
+    .navibar a {
+        padding: 12px 14px;
+        letter-spacing: 2px;
+        }
+    }
+    
+    
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+      .navibar {
+        font-size: 20px;
+        }
+      .navibar a {
+        padding: 14px 16px;
+        letter-spacing: 2px;
+        }
+    }
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+      
+    }
