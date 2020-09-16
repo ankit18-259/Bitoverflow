@@ -51,6 +51,9 @@
   padding: 7px 9px;
   letter-spacing: 2px;
   }
+  .section-2 img {
+    left: 25%;
+  }
 }
 
 
@@ -63,6 +66,9 @@
   .navibar a {
     padding: 10px 11px;
     letter-spacing: 2px;
+    }
+    .section-2 img {
+      left: 25%;
     }
 }
 
